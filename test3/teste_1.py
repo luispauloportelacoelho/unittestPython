@@ -17,14 +17,10 @@ sum_values2 = lambda x: x + 2
 
 class class_sum:
     """Class for sum."""
-    def __init__(self, x, y):
-        """Initalize values."""
-        self.x = x
-        self.y = y
 
-    def __call__(self):
+    def __call__(self, x, y):
         """Sum two values."""
-        return self.x + self.y
+        return x + y
 
-a = class_sum(2, 2)
-print(a())
+
+print(class_sum(2, 2))
