@@ -1,4 +1,8 @@
+"""Simple decorador."""
+
+
 def decorador(func):
+    """Decorador."""
     def interna(x, y):
         if isinstance(x, int) and isinstance(y, int):
             return func(x, y)

@@ -12,4 +12,5 @@ def index():
 def live_page():
     return 'Estamos online'
 
+
 app.run()
