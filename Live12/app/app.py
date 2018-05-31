@@ -71,7 +71,6 @@ def post_albums():
     return dumps({response.status: disc})
 
 
-
 @app.get('/albums/<artist>')
 def albums_map(artist):
     return search_albums(artist)
